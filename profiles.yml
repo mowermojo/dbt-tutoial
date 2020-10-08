@@ -1,0 +1,14 @@
+
+Jaffle_shop:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: service-account
+      keyfile: /Users/antho/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0/LocalCache/local-packages/Python37/Scripts/dbt-user-creds.json
+      project: my-project-31317-291910
+      dataset: dbt_anthony
+      threads: 1
+      timeout_seconds: 300
+      location: US
+      priority: interactive
